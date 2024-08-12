@@ -1,0 +1,18 @@
+pkgbase = android-recorder
+	pkgdesc = Android recorder.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/android-recorder
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	depends = android-sreenrecorder
+	depends = android-audiorecorder
+	depends = libcrash-bash
+	depends = media-tools
+	source = android-recorder-ff4380fad760388fdb34b2fbfbdbb96741204630.zip::https://github.com/themartiancompany/android-recorder/archive/ff4380fad760388fdb34b2fbfbdbb96741204630.zip
+	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
+	sha256sums = 64bbb4d025936837397028b40a3febd217252e295fa800300242f1a6fbcf110d
+
+pkgname = android-recorder
