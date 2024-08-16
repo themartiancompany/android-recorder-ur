@@ -23,7 +23,7 @@ license=(
   AGPL3
 )
 depends=(
-  "android-screenrecorder"
+  "android-screen-recorder"
   "android-audiorecorder"
   "libcrash-bash"
   "media-tools"
